@@ -1,0 +1,9 @@
+.mainDiv {
+  width: 300px;
+  text-align: center;
+  background: #62ca62;
+}
+
+button {
+  cursor: pointer;
+}
