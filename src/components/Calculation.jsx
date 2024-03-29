@@ -15,7 +15,7 @@ import {
 const Calculation = () => {
   let dispatch = useDispatch();
 
-  let [input, setInput] = useState();
+  let [input, setInput] = useState("");
   let handleChange = (e) => {
     setInput(e.target.value);
   };
