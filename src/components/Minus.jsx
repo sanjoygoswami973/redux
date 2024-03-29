@@ -1,10 +1,7 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { decrement } from "../slices/countSlice";
 
-const Minus = () => {
-  let dispatch = useDispatch();
-  return <button onClick={() => dispatch(decrement(1))}>Minus</button>;
+const Minus = ({ onClick, btnText }) => {
+  return <button onClick={onClick}>{btnText}</button>;
 };
 
 export default Minus;

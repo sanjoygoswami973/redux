@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .mainDiv {
-  width: 300px;
+  width: 400px;
   text-align: center;
   background: #62ca62;
   padding: 50px 0;
@@ -9,4 +14,31 @@ button {
   padding: 20px;
   cursor: pointer;
   margin-right: 10px;
+  width: 130px;
+}
+
+button:nth-child(3) {
+  margin-right: 0;
+}
+
+button:last-child {
+  margin-right: 0;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  width: 235px;
+  padding: 8px 16px;
+}
+
+.mainBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 20px;
 }

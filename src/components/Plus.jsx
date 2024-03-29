@@ -1,10 +1,11 @@
 import React from "react";
-import { useDispatch } from "react-redux";
-import { increment } from "../slices/countSlice";
 
-const Plus = () => {
-  let dispatch = useDispatch();
-  return <button onClick={() => dispatch(increment(1))}>Plus</button>;
+const Plus = ({ onClick, btnText }) => {
+  return (
+    <>
+      <button onClick={onClick}>{btnText}</button>
+    </>
+  );
 };
 
 export default Plus;
